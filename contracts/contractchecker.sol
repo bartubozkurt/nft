@@ -19,7 +19,7 @@ contract ContractChecker is ERC721{
         symbol = _symbol;
     }
     
-    // ! returns a URL that points to the metadata
+    // ! returns a URL that points to the Metadata
     function tokenURI(uint256 tokenId) public view returns (string memory){
         require(_owners[tokenId] != address(0), "TokenId does not exist");
         return _tokenURIs[tokenId];
