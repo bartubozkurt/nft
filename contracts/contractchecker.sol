@@ -26,7 +26,7 @@ contract ContractChecker is ERC721{
     }
 
 
-    // ! Creates a new nfts inside our collection
+    // ! Creates a new nfts inside our Collection
     function mint(string memory _tokenURI) public {
 
         tokenCount += 1; // tokenId
